@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'header.css';
+@import 'sessaoUm.css';
+@import 'sessaoDois.css';
+@import 'sessaoTres.css';
+
+:root {
+  --primaria-cor: #fff;
+  --secundaria-cor: #fafafa;
+  --terciaria-cor: #0f172a;
+  --fontes-cor: #475569;
+  --detail-botao: #0b111f;
+  --detalhes-cor: #4338ca;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Geist', Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.sessoes {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--detalhes-cor);
+}

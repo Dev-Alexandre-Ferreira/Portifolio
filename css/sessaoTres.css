@@ -1,0 +1,39 @@
+.bc-sessaoTres {
+  background-color: var(--secundaria-cor);
+  padding: 100px 80px;
+}
+
+.itens-sessaoTres {
+  max-width: 100%;
+  display: flex;
+  gap: 20px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itens-sessaoTres li {
+  padding: 24px;
+  background-color: var(--primaria-cor);
+  width: 310px;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone {
+  background-color: var(--secundaria-cor);
+  padding: 15px 15px;
+  border-radius: 5px;
+  display: grid;
+}
+
+.icone img {
+  height: 25px;
+  justify-self: center;
+  align-self: center;
+}
+
+.texto-ferramenta span {
+  color: var(--fontes-cor);
+}

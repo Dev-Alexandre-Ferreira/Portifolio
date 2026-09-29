@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px 50px;
+  border-bottom: 1px solid var(--secundaria-cor);
+}
+
+.menu-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-header a {
+  font-size: 1.1rem;
+  color: var(--fontes-cor);
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+.menu-header a:hover {
+  color: var(--terciaria-cor);
+}
+
+.logo h2 {
+  font-size: 22px;
+}
+
+.logo span {
+  font-weight: 300;
+  margin-left: 35px;
+  color: var(--fontes-cor);
+  position: relative;
+}
+
+.logo span::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 100%;
+  top: 11px;
+  left: -20px;
+  background-color: var(--detalhes-cor);
+}
