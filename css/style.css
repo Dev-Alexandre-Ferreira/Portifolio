@@ -4,6 +4,9 @@
 @import 'sessaoUm.css';
 @import 'sessaoDois.css';
 @import 'sessaoTres.css';
+@import 'sessaoQuatro.css';
+@import 'sessaoCinco.css';
+@import 'footer.css';
 
 :root {
   --primaria-cor: #fff;
@@ -12,6 +15,7 @@
   --fontes-cor: #475569;
   --detail-botao: #0b111f;
   --detalhes-cor: #4338ca;
+  --detalhes-card: #f1f5f9;
 }
 
 * {

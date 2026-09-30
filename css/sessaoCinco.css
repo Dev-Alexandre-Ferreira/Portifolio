@@ -1,0 +1,42 @@
+.bc-sessaoCinco {
+  background-color: var(--secundaria-cor);
+  padding: 100px 80px;
+}
+
+.jobs {
+  display: grid;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.cardJobs {
+  background-color: var(--primaria-cor);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.cardJobs h3 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.cardJobs h4 {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: var(--detalhes-cor);
+}
+
+.cardJobs li {
+  color: var(--fontes-cor);
+  font-size: 1.1rem;
+}
+
+.itensJobs {
+  display: grid;
+  gap: 10px;
+}
+
+.itensJobs li {
+  list-style: disc;
+  margin-left: 20px;
+}

@@ -1,0 +1,53 @@
+.bc-footer {
+  background-color: var(--primaria-cor);
+  padding: 100px 80px 50px 80px;
+}
+
+.sessao-footer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 60px;
+}
+
+.sessao-footer p {
+  font-size: 1.3rem;
+  max-width: 70ch;
+  line-height: 1.5;
+  color: var(--fontes-cor);
+}
+
+.contatos {
+  display: grid;
+  gap: 50px;
+}
+
+.contatos h4 {
+  font-size: 1.2rem;
+  color: var(--detalhes-cor);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.contatos a {
+  font-size: 1.2rem;
+  color: var(--terciaria-cor);
+  font-weight: 500;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  text-decoration: underline;
+}
+
+.direitos {
+  border-top: 1px solid #c6c6c6;
+  margin-top: 50px;
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.direitos p {
+  color: var(--fontes-cor);
+}
